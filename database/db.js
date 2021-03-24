@@ -2,7 +2,7 @@ import dataElizabeth from './dataElizabeth'
 import dataAnya from './dataAnya'
 
 class Database{
-    constructor ()
+    constructor () {}
 
     async getAllElizabeth(){
         await randomDelay()

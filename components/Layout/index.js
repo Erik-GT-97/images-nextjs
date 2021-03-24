@@ -6,7 +6,9 @@ const Layout = ({children}) => {
         <div>
             <Navbar/>
             {children}
-            <footer>This is the footer</footer>
+            <footer>
+                <a href='https://github.com/Erik-GT-97/images-nextjs' target='_blank'><img src='../../github.png'></img></a>
+            </footer>
         </div>
     )
 }
