@@ -4,7 +4,7 @@ import Loading from '@components/Loading'
 
 const Home = () => {
     const [images,setImages] = useState([])
-    const [loading,setLoading] = useState(false)
+    const [loading,setLoading] = useState(true)
 
     useEffect(()=>{
       setLoading(true)
